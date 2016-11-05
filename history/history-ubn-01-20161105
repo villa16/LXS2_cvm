@@ -1,27 +1,218 @@
     1   
     2  history
     3  echo " " > .bash_history
-    4  history
-    5  cd LXS"_cvm
-exit
-
-    6  cd LXS2_cvm
-    7  ls
-    8  history
-    9  history > file
-   10  ls
-   11  cat file
-   12  rm file
-   13  ls
-   14  echo $HOSTNAME
-   15  PWD
-   16  pwd
-   17  history > history/history-$HOSTNAME
-   18  tree
-   19  sudo apt-get install tree
-   20  tree
-   21  date
-   22  date +%Y%m%d 
-   23  history > history/history-$HOSTNAME`date +%Y%m%d`
-   24  tree
-   25  history > history/history-$HOSTNAME-`date +%Y%m%d`
+    4  sudo apt-get update ; sudo apt-get install tree
+    5  ip -4 addr
+    6  netstat -latunp
+    7  netstat -latunp | grep 22
+    8  sudo apt-get update
+    9  sudo apt-get install tree
+   10  sudo apt-get update --fix-missing
+   11  sudo apt-get uptdate ; sudo apt-get install tree
+   12  history
+   13  cd LXS"_cvm
+   14  exit
+   15  cd LXS2_cvm
+   16  ls
+   17  history
+   18  history > file
+   19  ls
+   20  cat file
+   21  rm file
+   22  ls
+   23  echo $HOSTNAME
+   24  PWD
+   25  pwd
+   26  history > history/history-$HOSTNAME
+   27  tree
+   28  sudo apt-get install tree
+   29  tree
+   30  date
+   31  date +%Y%m%d 
+   32  history > history/history-$HOSTNAME`date +%Y%m%d`
+   33  tree
+   34  history > history/history-$HOSTNAME-`date +%Y%m%d`
+   35  tree
+   36  rm histoty/history-ubn-01
+   37  rm history/history-ubn-01
+   38  rm history/history-ubn-0120161105
+   39  tree
+   40  touch src/.gitignore
+   41  tree
+   42  sl -a src/
+   43  pwd
+   44  touch .gitignore
+   45  ls -la
+   46  echo "~" > .gitignore
+   47  echo "*.swp" >> .gitignore
+   48  cat .gitingore
+   49  cat .gitignore
+   50  git init
+   51  ls -la
+   52  tree .git
+   53  cd
+   54  vim .gitconfig
+   55  ls
+   56  git clone https://github.com/emvarg/LXS2_evb.git
+   57  ls
+   58  cd LXS2_evb/
+   59  ip -4 addr
+   60  sudo apt-get install openssh-server
+   61  exit
+   62  nano .gitconfig
+   63  pwd
+   64  ls -a
+   65  -nano
+   66  nano .gitconfig
+   67  cat .gitconfig
+   68  cd LXS2_cvm
+   69  ls
+   70  ls -a
+   71  git status
+   72  git add .gitignore 
+   73  git add history/
+   74  git add scr/
+   75  git add scr
+   76  git status
+   77  git add src/
+   78  git commit -m "Inicio del repositorio de nivel 2"
+   79  git status
+   80  git log
+   81  pwd
+   82  gitk
+   83  sudo apt-get install gitk
+   84  gitk
+   85  #git remote add origin https://github.com/villa16/LXS2_cvm.git
+   86  git log
+   87  git remote add origin https://github.com/villa16/LXS2_cvm.git
+   88  git remote -v
+   89  git push origin master
+   90  cd src
+   91  lsb_release -a
+   92  cd
+   93  git clone https://github.com/emvarg/LXS2-evb.git
+   94  git remote 
+   95  git pull origin master
+   96  git pull github master
+   97  cd LXS2
+   98  ls
+   99  LXS2_cvm/scr
+  100  LXS2_cvm
+  101  cd LXS2_cvm
+  102  mkdir misc
+  103  ls
+  104  var1=casa
+  105  var2=perro
+  106  echo $HOSTNAME
+  107  echo $var1
+  108  echo $var2
+  109  touch file-$var1-$var2
+  110  ls
+  111  ls -l
+  112  dmesg | wc
+  113  dmesg | less 
+  114  dmesg | tail wc
+  115  dmesg | tail | wc
+  116  LXS2_cvm
+  117  cd LXS2_cvm
+  118  cd misc
+  119  ls
+  120  touch file-$var1-$var2
+  121  ls
+  122  dmesg | head -n 20 | wc
+  123  var2=perrito
+  124  var2=perrito > salida-de-$var2
+  125  ls
+  126  rm file--
+  127  ls
+  128  ls -l
+  129  cat salida-de-perrito
+  130  var1=casa
+  131  touch $var1
+  132  ifconfig -a > casa
+  133  cd ..
+  134  ls
+  135  git status
+  136  cd src
+  137  git status
+  138  git status ../misc
+  139  git status
+  140  git add ../misc
+  141  git status
+  142  git commit -m "archivos varios"
+  143  git pull origin master
+  144  git push origin master
+  145  history
+  146  cd
+  147  ls
+  148  dc LXS2_evd
+  149  cd LXS2_evd
+  150  cd LXS2_evb
+  151  git pull origin master
+  152  ls
+  153  cd
+  154  cd LXS2_cvm
+  155  tree
+  156  unset var2
+  157  env
+  158  env | less
+  159  id
+  160  echo $UID
+  161  cd src
+  162  ls
+  163  nano reporte.sh
+  164  chmod +x reporte.sh
+  165  ls
+  166  ls -l
+  167  ./reporte.sh
+  168  cat reporte-20161105.log 
+  169  git status
+  170  git add reporte.sh
+  171  git status
+  172  git commit
+  173  git log
+  174  nano reporte.sh
+  175  git status
+  176  cd .
+  177  cd
+  178  LXS2_cvm
+  179  cd LXS2_cvm
+  180  git commit -m "agrego al sistema de reporte las salidas delas interfaces activas y los puertos"
+  181  ls
+  182  ls -a
+  183  echo >> gitignore
+  184  exit
+  185  git status
+  186  rm gitignore-log
+  187  rm gitignore.log
+  188  git push origin master
+  189  ls
+  190  rm file-casa-perr
+  191  rm file-casa-perro
+  192  ls
+  193  ls
+  194  bash reporte.sh
+  195  ls
+  196  ls -l
+  197  ./reporte.sh
+  198  ls
+  199  cat reporte-20161105.log 
+  200  ./reporte.sh
+  201  cat reporte-20161105.log 
+  202  netstat latunp
+  203  netstat -latunp
+  204  netstat -latunp | grep LISTEN
+  205  netstat -latup | grep LISTEN
+  206  ./reporte.sh
+  207  git status
+  208  cd
+  209  ls
+  210  ls -a
+  211  cd LXS2_cvm
+  212  echo "*.log" >> gitignore.log
+  213  cd LXS2_cvm
+  214  ls
+  215  rm yes
+  216  ls
+  217  history
+  218  history > history/history-$HOSTNAME-`date +%Y%m%d`
