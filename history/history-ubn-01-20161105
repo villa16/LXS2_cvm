@@ -1,0 +1,27 @@
+    1   
+    2  history
+    3  echo " " > .bash_history
+    4  history
+    5  cd LXS"_cvm
+exit
+
+    6  cd LXS2_cvm
+    7  ls
+    8  history
+    9  history > file
+   10  ls
+   11  cat file
+   12  rm file
+   13  ls
+   14  echo $HOSTNAME
+   15  PWD
+   16  pwd
+   17  history > history/history-$HOSTNAME
+   18  tree
+   19  sudo apt-get install tree
+   20  tree
+   21  date
+   22  date +%Y%m%d 
+   23  history > history/history-$HOSTNAME`date +%Y%m%d`
+   24  tree
+   25  history > history/history-$HOSTNAME-`date +%Y%m%d`
